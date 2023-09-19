@@ -6,8 +6,7 @@ namespace Program
       double x = 0;
       Console.WriteLine("Введiть х: ");
       x = Convert.ToDouble(Console.ReadLine());
-      double s = Math.Pow(2, x) * x * Math.Cos(x) + 1;
-      Console.WriteLine($"Обчислення 2^x*x*cos(x)+1: {s}");
+      Console.WriteLine($"Обчислення 2^x*x*cos(x)+1: {Math.Pow(2, x) * x * Math.Cos(x) + 1}");
     }
   }
 }
